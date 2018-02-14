@@ -1,0 +1,30 @@
+{
+  "name": "sonarscansql",
+  "version": "1.0.21",
+  "description": "",
+  "main": "sonarscansql.js",
+  "bin": {
+    "sonarscansql": "./sonarscansql.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuwoom/sonarscansql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuwoom/sonarscansql/issues"
+  },
+  "homepage": "https://github.com/cuwoom/sonarscansql#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "mkdirp": "^0.5.1",
+    "wait.for": "^0.6.6",
+    "xml2js": "^0.4.19",
+    "yargs": "^11.0.0"
+  }
+}
